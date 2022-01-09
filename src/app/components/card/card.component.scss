@@ -1,0 +1,49 @@
+.example-card {
+    max-width: 700px;
+  }
+  
+.segment {
+    display: table;
+}
+
+.segment a {
+    color: #000;
+    text-decoration: none;
+}
+
+.segment a:hover { 
+    color:#000; 
+    text-decoration: underline;
+}
+
+.right_side {
+    display: table-cell;
+    vertical-align: top;
+    max-width: 350px;
+}
+
+.left_side {
+    display: table-cell;
+    vertical-align: top;
+    max-width: 320px;
+    padding-right: 20px;
+}
+
+.left_side img {
+    max-width: 100%;
+}
+
+.left_side img:hover {
+    scale: 1.05;
+}
+
+.mat-card-header {
+    padding-left: 0px;
+}
+
+.main-card {
+    padding-right: 15px;
+    padding-left: 100px;
+    margin: auto;
+    
+}

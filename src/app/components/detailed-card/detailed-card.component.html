@@ -1,0 +1,36 @@
+<mat-card class="example-card">
+    <div class="main-content">
+        <div class="main-component">
+            <div class="image">
+                <img src="/assets/{{quiz.image}}.jpg" alt="Photo of a Shiba Inu">
+            </div>
+            <div class="description">
+                <div class="item_title"> 
+                    <h2>
+                        {{quiz.title}}
+                    </h2>
+                </div>
+                <div class="item_desciption">
+                    <mat-card-content>
+                        <p>
+                            {{quiz.description}}
+                        </p>
+                    </mat-card-content>
+                </div>
+            </div>
+            <div class="activity">
+                <div class="time-entry">
+                    <p>Data zakonczenia to {{quiz.endDate | date:'medium'}}</p>
+                </div>
+                <div class="enter">
+                    <button mat-raised-button color="primary" routerLink="/login">Wez udzial</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <mat-card-actions>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions> -->
+  </mat-card>

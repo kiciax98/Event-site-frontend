@@ -1,0 +1,29 @@
+.main-content {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+    width: 50%;
+}
+
+.main-component {
+    max-width: 3000px;
+}
+
+.image img {
+    max-height: 700px;
+    max-width: 740px;
+}
+
+.activity {
+    display: table;
+    width: 740px;
+}
+
+.time-entry {
+    display: table-cell;
+}
+
+.enter {
+    display: table-cell;
+    align-items: right;
+}

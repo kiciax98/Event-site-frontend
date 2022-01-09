@@ -1,0 +1,33 @@
+<div class="main-card">
+<mat-card *ngFor="let quiz of quizzes" class="example-card">
+    <div class="segment">
+        <div class="left_side">
+            <a routerLink="/konkursy-uczelniane/{{quiz.id}}">
+                <img  src="/assets/{{quiz.image}}.jpg" alt="Photo of a Shiba Inu">
+            </a>
+        </div>
+        <div class="right_side">
+            <div class="item_title"> 
+                <h2>
+                    <a class="title" routerLink="/konkursy-uczelniane/{{quiz.id}}">{{quiz.title}}</a>
+                </h2>
+            </div>
+            <div class="item_desciption">
+                <a routerLink="/konkursy-uczelniane/{{quiz.id}}">
+                    <mat-card-content>
+                        <p>
+                          {{quiz.description}}
+                        </p>
+                      </mat-card-content>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- <mat-card-actions>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions> -->
+  </mat-card>
+</div>
+  
